@@ -49,9 +49,8 @@ origWord = input('What word would you like to find a social network for? ')
 '''
 Originally, I was just going to print out the matching word and/or store them in a single
 list. However, storing them in separate lists based on their ordering in the social network
-allows the data to be used in other ways if desired later on. Also, this makes it so that
-if there is a person who is a friend of a person, then person two is also a friend of person
-one (ie both people will be on both lists
+allows the data to be used in other ways if desired later on. I also printed out the lists for
+clarity, which can easily be turned off by commenting out the print statements.
 '''
 
 origFriends = []
